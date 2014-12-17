@@ -40,12 +40,12 @@ public class transaction {
 			amountUpdater.amountUpdate(account, amt);
 			return;
 
-			// withdrawal
+		// withdrawal
 		case 2:
 			amountUpdater.amountUpdate(account, -amt);
 			return;
 
-			// transfer
+		// transfer
 		case 3:
 			boolean used = false;
 			String account2 = "";
