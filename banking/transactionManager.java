@@ -27,12 +27,14 @@ public class transactionManager {
 	String account;
 	Scanner in = new Scanner(System.in);
 	boolean used = false;
+	boolean exit = false;
 	int pin;
 
 	public void transactionMenu() {
-		used = false;
+
 
 		// checks the name
+		used = false;
 		while (used == false) {
 			System.out.println("Please enter your account name.");
 			account = in.next();
@@ -44,7 +46,6 @@ public class transactionManager {
 		}
 
 		// checks the pin
-
 		used = false;
 		while (used == false) {
 			System.out.println("Please enter your pin number.");
@@ -56,8 +57,7 @@ public class transactionManager {
 			}
 		}
 
-		boolean exit = false;
-
+		exit = false;
 		while (exit != true) {
 			int input;
 			System.out.println("\nPlease state your next action\n"
