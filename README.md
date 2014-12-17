@@ -1,7 +1,7 @@
 bank
 ====
 
-banking program using spring framework
+banking program using spring framework. uses JDBC/mySQL to store/update accounts.
 
 this is a maven setup.
 
