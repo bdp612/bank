@@ -1,11 +1,11 @@
-package finalProject;
+package main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import banking.userInterface;
 
-public class app{
+public class main{
 
 	public static void main(String[] args) throws Exception {
 				
